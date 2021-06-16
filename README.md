@@ -82,7 +82,11 @@ Once this step is done\
 \
 We also need to run a calculation without fission. \
 \
-**run_single_zone ../../data_pub/my_net.xml ../../data_pub/zone.xml my_output_no_fission.xml "[z <= 90]"**\
+**./run_single_zone ../../data_pub/my_net.xml ../../data_pub/zone.xml my_output_no_fission.xml "[z <= 90]"**\
+\
+Or, we can use\
+\
+**qsub **.pbs**\
 \
 Then we can use wnutils to plot the final abunds and compare the difference.
 
